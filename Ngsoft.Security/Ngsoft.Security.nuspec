@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Ngsoft.Security</id>
+    <version>1.0.0.0</version>
+    <title>Ngsoft.Security</title>
+    <authors>Aleksandr Nagorniy</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <repository type="git" url="https://github.com/nagorniy-ad/Ngsoft.Security.git" />
+    <icon>Ngsoft.Security.png</icon>
+    <description>Contains classes and utilities for security and data protection operations</description>
+    <releaseNotes>First public release.</releaseNotes>
+    <copyright>Copyright © Aleksandr Nagorniy</copyright>
+    <tags>security data protection</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="System.Security.Cryptography.ProtectedData" version="4.7.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Ngsoft.Security.png" />
+  </files>
+</package>
